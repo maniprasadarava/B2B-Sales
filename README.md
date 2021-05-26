@@ -1,0 +1,2 @@
+# B2B-Sales
+Business-to-business (B2B), also called B-to-B, is a form of transaction between businesses, such as one involving a manufacturer and wholesaler, or a wholesaler and a retailer. Business-to-business refers to business that is conducted between companies, rather than between a company and individual consumer. Business-to-business stands in contrast to business-to-consumer (B2C) and business-to-government (B2G) transactions.
