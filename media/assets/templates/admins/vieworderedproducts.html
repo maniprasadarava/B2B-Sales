@@ -1,0 +1,47 @@
+{% extends 'adminbase.html' %}
+
+{% block contents %}
+
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <h2><b>Admin View Ordered Products<b>  </h2>
+    <table border="2px">
+            <tr>
+                <th>S.No</th>
+                <th >Name</th>
+                <th>Product Name</th>
+                <th>Aadharnumber</th>
+                <th>Address</th>
+                <th>Mobilenumber</th>
+                <th>Bankname</th>
+                <th>Accountnumber</th>
+                <th>Ifsccode</th>
+                <th>Amount</th>
+                <th>Date</th>
+                <th>Time</th>
+
+            </tr>
+            {% for i in object %}
+            <tr>
+            <td style="color:brown">{{i.id}}</td>
+            <td style="color:brown">{{i.name}}</td>
+            <td style="color:brown">{{i.productname}}</td>
+            <td style="color:brown">{{i.aadharnumber}}</td>
+                <td style="color:brown">{{i.address}}</td>
+                <td style="color:brown">{{i.mobilenumber}}</td>
+                <td style="color:brown">{{i.bankname}}</td>
+                 <td style="color:brown">{{i.accountnumber}}</td>
+                 <td style="color:brown">{{i.ifsccode}}</td>
+                 <td style="color:brown">{{i.amount}}</td>
+                 <td style="color:brown">{{i.date}}</td>
+                 <td style="color:brown">{{i.time}}</td>
+
+
+
+            </tr>
+            {% endfor %}
+
+        </table>
+
+{% endblock %}
